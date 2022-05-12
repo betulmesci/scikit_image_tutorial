@@ -1,0 +1,72 @@
+This tutorial employs scikit-image library to process images. It has 13 sections. 
+Titles and brief descriptions for these sections are as follows:
+
+1 - Image Processing Tutorial Using scikit-image - Basic Operations on Images
+
+This tutorial uses scikit-image library to process images.
+This is the introductory section where basic operations like loading and transforming 
+images are presented.
+
+2 - Image Processing Tutorial Using scikit-image - Masking
+
+In this section, I went over masking images to show only the relevant parts. As an 
+exercise, I used a for loop to show hamburgers in a repetitive image and black out the rest.
+
+3 - Image Processing Tutorial Using scikit-image - Manipulating Image Pixels
+
+In this section, I explored how to set pixel values to a certain value based on a threshold
+value and do calculations on pixel values. As an exercise, I calculated average red, green 
+and blue color values  of certain pixels which may be useful in determining color change over 
+time in a titration experiment.
+
+4 - Image Processing Tutorial Using scikit-image - Histograms 
+
+In this section, I explored creating histograms of grayscale and colored images with Numpy and PyPlot.
+I discussed a drawback of histograms and how we can overcome this by using Kernel Density Estimation (KDE).
+
+5 - Image Processing Tutorial Using scikit-image - Noise
+
+In this part, Gaussian (random) noise and adding and removing different kinds of noise to the 
+images are discussed.
+
+6 - Image Processing Tutorial Using scikit-image - Morphological Operations
+
+In this part, I went over erosion, dilation, opening and closing functions. As an exercise, 
+I used an image of touching coins and had skimage count the number of coins automatically.
+
+7 - Image Processing Tutorial Using scikit-image - Image Segmentation
+
+In this section, I talked about two kinds of image segmentation techniques: Supervised and Unsupervised. 
+For Supervised method, I explored Active Contour and Random Walker methods to detect the face of a person. 
+For Unsupervised method, Simple Linear Iterative Clustering (SLIC) and Felzenszwalb Clustering techniques were discussed. 
+
+8 - Image Processing Tutorial Using scikit-image - Thresholding
+
+In this section of the tutorial, I explored various thresholding techniques. I measured and compared the bacterial
+growth in several petri dishes using masking and thresholding techniques as an exercise.
+
+9 - Image Processing Tutorial Using scikit-image - Connected Component Analysis
+
+In this section, I talked about counting and labeling objects using Connected Component Analysis algorithm. 
+As an exercise, I counted objects in an image and removed the ones that have smaller areas than a certain value.
+
+10 - Image Processing Tutorial Using scikit-image - Contrast Enhancement
+
+In this section, I talked about Standard and Adaptive Histogram Equalization methods to improve the details of 
+low-contrast images. As an exercise, I used these techniques to enhance the quality of a Covid patient's lung x-ray image.
+
+11 - Image Processing Tutorial Using scikit-image - Contour Detection
+
+In image processing, finding contours of objects can be helpful in object detection. As an exercise, I used scikit-image
+to detect the contours of holes of a slice of cheese and counted them.  
+
+12 - Image Processing Tutorial Using scikit-image - Edge & Corner Detection
+
+In this part, I talked about edge and corner detection of the objects. I used Sobel, Prewitt, Scharr and Canny filters 
+to detect edges. For corners, I used corner_harris() from skimage.feature to detect and count the corners of the
+objects in an image.
+
+13 - Image Processing Tutorial Using scikit-image - Image Restoration
+
+In this section of the tutorial, I used inpaint_biharmonic function from scikit-image to restore the torn out parts 
+of a severely damaged photo of a person.
